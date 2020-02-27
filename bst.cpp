@@ -6,12 +6,6 @@ using namespace std;
 int main()
 {
     Tree t;
-    t.insertRec(t.getRoot(),100);
-    /*
-    t.insertIter(t.getRoot(),100);
-    t.insertRec(t.getRoot(),15);
-    t.insertRec(t.getRoot(),4);
-    t.insertRec(t.getRoot(),101);
 
     t.insertRec(t.getRoot(),8);
     t.insertIter(t.getRoot(),3);
@@ -36,7 +30,6 @@ int main()
     cout<<t.findPrevIter(t.getRoot())->getVal()<<endl;
     cout<<t.findMinIter(t.getRoot())->getVal()<<endl;
     cout<<t.findMaxIter(t.getRoot())->getVal()<<endl;
-    */
     sort(t.getRoot());
 
 
