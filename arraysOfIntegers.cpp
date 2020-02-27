@@ -36,6 +36,7 @@ int * getSortedArray(int n){
 int main(){
     srand(time(NULL));
     int n;
+    cout<<"Enter n: ";
     cin>>n;
     int * arr2=getRandomArray(n);
     for(int i=0;i<n;i++){
