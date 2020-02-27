@@ -19,7 +19,7 @@ int main()
 
     t.preOrder(t.getRoot());
     cout<<endl;
-    t.deleteIter(t.getRoot(),8);
+    t.deleteRec(t.getRoot(),8);
     t.preOrder(t.getRoot());
     cout<<endl;
     t.deleteIter(t.getRoot(),13);
@@ -30,6 +30,10 @@ int main()
     cout<<t.findPrevIter(t.getRoot())->getVal()<<endl;
     cout<<t.findMinIter(t.getRoot())->getVal()<<endl;
     cout<<t.findMaxIter(t.getRoot())->getVal()<<endl;
+    cout<<t.findNextRec(t.getRoot())->getVal()<<endl;
+    cout<<t.findPrevRec(t.getRoot())->getVal()<<endl;
+    cout<<t.findMinRec(t.getRoot())->getVal()<<endl;
+    cout<<t.findMaxRec(t.getRoot())->getVal()<<endl;
     sort(t.getRoot());
 
 
